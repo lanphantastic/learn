@@ -27,12 +27,12 @@ This is a running list of those who are actively contributing to this project.
 | Name                | Role                      | Slack handle        | Github                                                 | Weekly Availability | Joined   |
 | ------------------- | ------------------------- | ------------------- | ------------------------------------------------------ | ------------------- | -------- |
 | 🧢 Tristan Matthias | Project Lead              | `@Tristan Matthias` | [@tristanMatthias](https://github.com/tristanMatthias) | 20 hours            | Apr 2020 |
-| 🧢 Shane Sheridan   | Scrum Master              | `@Shane Sheridan`   | [@shane215](https://github.com/shane215)               | 6 hours             | Apr 2020 |
+| 🧢 Shane Sheridan   | Scrum Master/Full-stack              | `@Shane Sheridan`   | [@shane215](https://github.com/shane215)               | 5-10 hours             | Apr 2020 |
 | 🧢 Quim Granados    | Full-stack                | `@Quim Granados`    | [@quimgv](https://github.com/quimgv)                   | 10-20 hours         | Apr 2020 |
+| 🧢 Suzy Nakayama       | Full-stack                | `@Suzy Nakayama`    | [@suzynakayama](https://github.com/suzynakayama)       | 10 hours            | Apr 2020 |
+| 🧢 Marc Tessier        | Design                    | `@Marc Tessier`     | [@mtess88](https://github.com/mtess88)                 | 15 hours            | May 2020 |
 | 🧢 Rajat Bansal     | WWW Lead                  | `@Rajat Bansal`     | [@rjtbansal](https://github.com/rjtbansal)             | 15-20 hours         | Apr 2020 |
 | Frank Kim           | Documentation / Front-end | `@Frank Kim`        | [@heyfranksmile](https://github.com/heyfranksmile)     | 10 hours            | Apr 2020 |
-| Frankie Law         | Full stack                | `@Frankie`          | [@FrankieLaw](https://github.com/FrankieLaw)           | 5-10 hours          | Apr 2020 |
-| Suzy Nakayama       | Full-stack                | `@Suzy Nakayama`    | [@suzynakayama](https://github.com/suzynakayama)       | 10 hours            | Apr 2020 |
 | Tomoya Kuroda       | Full-stack                | `@Tomoya`           | [@tomoyakuroda](https://github.com/tomoyakuroda)       | 10 hours            | Apr 2020 |
 | Ellie Xiang         | Full-stack                | `@Ellie`.           | [@Ellie-2020](https://github.com/Ellie-2020)           | 8+ hours            | Apr 2020 |
 | Folke Westergren    | Front-end                 | `@Folke`            | [@f-westergren](https://github.com/f-westergren)       | 5-10 hours          | Apr 2020 |
@@ -43,8 +43,10 @@ This is a running list of those who are actively contributing to this project.
 | Rayser Castrillo    | Back-end                  | `@rayser`           | [@raysercast1](https://github.com/raysercast1)         | 5 - 10 hours        | Apr 2020 |
 | Lan Phan            | Testing & Front-end       | `@Lan Phan`         | [@lanphantastic](https://github.com/lanphantastic)     | 3 - 6 hours         | Apr 2020 |
 | Jeff Norman         | Front-end & Design        | `@Jeff`             | [@crizzpy](https://github.com/crizzpy)                 | 10 hours            | May 2020 |
-| Marc Tessier        | Design                    | `@Marc Tessier`     | [@mtess88](https://github.com/mtess88)                 | 15 hours            | May 2020 |
 | Andrea Morreale     | Design                    | `@Andre M`          | [@akimdesign](https://github.com.akimdesign)           | 20 hours            | May 2020 |
+| Balkirat Singh      | Full Stack                | `@Balkirat Singh`   | [@Balkirat](https://github.com/Balkirat)               | 10+ hours           |
+| Waqas Daimee        | Full Stack                | `@Waqas Daimee`     | [@wdaimee](https://github.com/wdaimee)                 | 10 hours            | May 2020 |
+| Yago Mackay        | Front End                | `@Yago Mackay`     | [@YagoMackay](https://github.com/YagoMackay)                 | 8 hours            | May 2020 |
 
 ## 🔧 What can I work on?
 
@@ -97,6 +99,7 @@ This is how you commit your message with all three parts with a blank line:
 `git commit -m "type(scope)?: subject"
 
 ### The Type
+
 The type is contained within the title and can be one of these types:
 
 - **feat**: a new feature
@@ -108,7 +111,9 @@ The type is contained within the title and can be one of these types:
 - **chore**: updating build tasks, package manager configs, etc; no production code change
 
 ### The Scope
+
 The scope describes the category of your change and the commonly used are of the following:
+
 - build,
 - chore,
 - ci,
@@ -133,7 +138,7 @@ Use an imperative tone to describe what a commit does, rather than what it did. 
 As per git flow, all PRs should be on branches with the names `feature/name-of-feature`.
 **They should be requested to merge into the `develop` branch, NOT THE `master` branch.**
 
-### Approaches to writing a PR ###
+### Approaches to writing a PR
 
 Include the purpose of this Pull Request. For example:
 
@@ -174,7 +179,7 @@ If necessary, add some screenshots or a GIF or video of you using the feature.
 When a PR is ready, please make sure to request a review from a 🧢 maintainer.
 Once the maintainer has approved your PR, it will be merged for you into `develop`.
 
-## Offering feedback ##
+## Offering feedback
 
 - Familiarize yourself with the context of the issue, and reasons why this Pull Request exists.
 - If you disagree strongly, consider giving it a few minutes before responding; think before you react.
@@ -188,7 +193,7 @@ Once the maintainer has approved your PR, it will be merged for you into `develo
 - Be aware of negative bias with online communication. (If content is neutral, we assume the tone is negative.) Can you use positive language as opposed to neutral?
 - Use emoji to clarify tone. Compare “:sparkles: :sparkles: Looks good :+1: :sparkles: :sparkles:” to “Looks good.”
 
-## Responding to feedback ##
+## Responding to feedback
 
 - Consider leading with an expression of appreciation, especially when feedback has been mixed.
 - Ask for clarification. (“I don’t understand, can you clarify?”)

@@ -3,14 +3,14 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "./helpers.css";
+@import "./helpers";
 @import "./components/buttons";
 @import "./components/text";
 @import "./components/input";
 @import "./components/icon";
 @import "./components/form";
 @import "./components/error-message";
-@import "./components/radio-list.css";
+@import "./components/radio-list";
 
 *, *:focus {
   outline: none !important;
@@ -19,4 +19,7 @@
 body, #app {
   background: #e4e0f3;
   min-height: 100vh;
+  /* fallback */
+  /* font-size: 10px; */
+  /* font-size: 62.5%;  TODO: uncomment when transition to styled components is finished */ 
 }
